@@ -2,7 +2,7 @@ package flights;
 
 import java.io.*;
 
-public class FlightWrite {
+public class FlightWrite extends FlightRead {
 
 	    public static void main(String [] args) {
 
