@@ -23,10 +23,8 @@ public class FlightRead {
 		
 		//Create a hashtable for the columns
         Hashtable <String, Integer> headerhash = new Hashtable <String, Integer>(); //create a dictionary
-        String[] colToKeep = new String[] 
-        		
-        		{"\"Year\"","\"Quarter\"","\"Month\"","\"DayofMonth\"",
-        		 
+        String[] colToKeep = new String[]         		
+        		{"\"Year\"","\"Quarter\"","\"Month\"","\"DayofMonth\"",        		 
         		"\"DayOfWeek\"","\"UniqueCarrier\"","\"Origin\"","\"OriginCityName\"","\"OriginState\"",
         		"\"Dest\"","\"DestCityName\"","\"DestState\"","\"CRSDepTime\"","\"DepTime\"","\"DepDelay\"",
         		"\"DepDelayMinutes\"","\"DepDel15\"","\"DepartureDelayGroups\"","\"TaxiOut\"","\"TaxiIn\"",
@@ -39,8 +37,8 @@ public class FlightRead {
         
         		/*		
         		 {"Year","Quarter","Month","DayofMonth","DayofWeek",
-    			"UniqueCarrier","Origin","OriginCityName","OriginState","Dest","DestCiyName",
-    			"DestState","CRSDeptTime","DepTime","DepDelay","DepDelayMinutes","DepDel15",
+    			"UniqueCarrier","Origin","OriginCityName","OriginState","Dest","DestCityName",
+    			"DestState","CRSDepTime","DepTime","DepDelay","DepDelayMinutes","DepDel15",
     			"DepartureDelayGroups","TaxiOut","TaxiIn","ArrDelay","ArrDelayMinutes","ArrDel15",
     			"Cancelled","ActualElapsedTime","AirTime","Distance"};
         		 */
